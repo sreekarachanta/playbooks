@@ -1,5 +1,5 @@
 ---
-  - hosts: webanddbservers
+  - hosts:
     become: True
     tasks:
        - name: Install basic software
