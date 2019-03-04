@@ -1,4 +1,4 @@
-# Playbook - useraccess.yml
+# Playbook - main.yml
 ____________________________________
 This playbook will grant/revoke access to a user on multiple servers.
 
