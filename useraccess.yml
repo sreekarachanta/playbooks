@@ -9,3 +9,4 @@
        name: "{{ username }}"
        shell: '/bin/bash'
        password: "{{ userpassword }}"
+       state: "{{ state }}"
