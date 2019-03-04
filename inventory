@@ -6,3 +6,4 @@
 [webservers:vars]
 username= sri
 userpassword= password
+state= present
