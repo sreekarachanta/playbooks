@@ -17,10 +17,16 @@ ______________
 
 username - Specify the user name of the user
 userpassword - Specify the password of the user
+state - should be specified based on the request if the user needs to be created or needs to be deleted.
 
 Expected result
 __________________
 After execution of the PLAYBOOK, the specified user will have access to the destination servers
+
+Execute Playbook
+_____________________
+
+ansible-playbook main.yml -i /etc/ansible/hosts -vvv
 
 SAMPLE OUTPUT
 _________________
