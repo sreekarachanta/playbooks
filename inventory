@@ -1,9 +1,0 @@
-[webservers]
-172.31.22.118 ansible_user=root
-172.31.19.128 ansible_user=root
-
-
-[webservers:vars]
-username= sri
-userpassword= password
-state= present
